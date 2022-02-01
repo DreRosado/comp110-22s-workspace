@@ -1,4 +1,4 @@
-"""Demonstrates asking user for input"""
+"""Demonstrates asking user for input."""
 ___author___ = "730524237"
 
 user_name: str = input("What is your name? ")
