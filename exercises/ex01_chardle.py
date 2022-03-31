@@ -6,7 +6,7 @@ if len(word) != 5:
     print("Error: Word must contain 5 characters")
     exit()
 letter: str = input("Enter a single character:")
-if len(letter) != 5:
+if len(letter) != 1:
     print("Error: Character must be a single character.")
     exit()
 correct_count: int = 0
@@ -40,4 +40,4 @@ if correct_count > 1:
     print(str(correct_count) + " instances of " + letter + " found in " + word)
 
 if correct_count == 0:
-    print("No instances of " + letter + " in " + word)
+    print("No instances of " + letter + " found in " + word)
